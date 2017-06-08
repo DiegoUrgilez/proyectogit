@@ -19,13 +19,13 @@
         <repository>
             <id>TestAplicacion</id>
             <name>TestApplicacion Repositorio Interno</name>
-            <url>file://root</url>
+            <url>file://root/.m2/repository/com/mycompany</url>
             <layout>default</layout>
         </repository>
         <snapshotRepository>
             <id>TestAplicacion</id>
             <name>TestApplicacion Repositorio Interno</name>
-            <url>file://root</url>
+            <url>file://root/.m2/repository/com/mycompany</url>
             <layout>default</layout>
         </snapshotRepository>
     </distributionManagement>
