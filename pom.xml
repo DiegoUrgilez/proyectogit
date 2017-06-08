@@ -19,13 +19,13 @@
         <repository>
             <id>TestAplicacion</id>
             <name>TestApplicacion Repositorio Interno</name>
-           <url>file://home/diego</url>
+           <url>http://127.0.0.1:8081/nexus</url>
             <layout>default</layout>
         </repository>
         <snapshotRepository>
             <id>TestAplicacion</id>
             <name>TestApplicacion Repositorio Interno</name>
-            <url>file://home/diego</url>
+            <url>http://127.0.0.1:8081/nexus</url>
             <layout>default</layout>
         </snapshotRepository>
     </distributionManagement>
