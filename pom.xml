@@ -16,22 +16,17 @@
  
     
     <distributionManagement>
-        <repository>
-            <id>TestAplicacion</id>
-            <name>TestApplicacion Repositorio Interno</name>
-           <url>file://root/.m2/</url>
-            <layout>default</layout>
-        </repository>
-        
-        <snapshotRepository>
-           
-            <id>TestAplicacion</id>
-            <name>TestApplicacion Repositorio Interno</name>
-            <url>file://root/.m2/</url>
-            <layout>default</layout>
-                     
-        </snapshotRepository>
-    </distributionManagement>
+  <repository>
+    <id>releases</id>
+    <!-- CHANGE HERE by your team nexus server -->
+    <url>http://127.0.0.1:8081/nexus/content/repositories/releases/</url>
+  </repository>
+  <snapshotRepository>
+    <id>snapshots</id>
+    <!-- CHANGE HERE by your team nexus server -->
+    <url>http://127.0.0.1:8081/nexus/content/repositories/snapshots/</url>
+  </snapshotRepository>
+</distributionManagement>
 
 
     
