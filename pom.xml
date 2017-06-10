@@ -14,10 +14,10 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     
-    <distributionManagement>
+<distributionManagement>
   <snapshotRepository>
-    <id>prueba</id>
-    <url>http://127.0.0.1:8081/nexus/content/repositories/prueba</url>
+    <id>snapshots</id>
+    <url>http://127.0.0.1:8081/nexus/content/repositories/snapshots</url>
   </snapshotRepository>
 </distributionManagement>
  
