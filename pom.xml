@@ -14,20 +14,13 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
  
-    
-    <distributionManagement>
-  <repository>
+   <repositories>
+   <repository>
     <id>prueba</id>
       <name>prueba</name>
     <url>http://127.0.0.1:8081/nexus/content/repositories/prueba</url>
   </repository>
-  <snapshotRepository>
-    <id>snapshots</id>
-      <name>Snapshots</name>
-    <url>http://127.0.0.1:8081/nexus/content/repositories/snapshots</url>
-  </snapshotRepository>
-</distributionManagement>
-
+</repositories>
 
     
     <dependencies>
