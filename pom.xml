@@ -17,7 +17,8 @@
     
     <distributionManagement>
   <repository>
-    <id>releases</id>
+    <id>prueba</id>
+      <name>prueba</name>
     <url>http://127.0.0.1:8081/nexus/content/repositories/prueba</url>
   </repository>
   <snapshotRepository>
