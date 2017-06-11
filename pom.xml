@@ -16,8 +16,8 @@
 
    <repositories>
    <repository>
-      <id>prueba</id>
-      <name>Prueba</name>
+      <id>releases</id>
+      <name>releases</name>
     <url>http://127.0.0.1:8081/nexus/content/repositories/prueba</url>
        <layout>default</layout>
   </repository>
